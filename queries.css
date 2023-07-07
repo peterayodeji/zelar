@@ -1,0 +1,202 @@
+/*************************/
+/* BELOW 1200px (Landscape Tablets) */
+/*************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*************************/
+/* BELOW 944px (Tablets) */
+/*************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    max-width: 85vw;
+  }
+
+  .grid-3-cols {
+    column-gap: 4rem;
+  }
+}
+
+/*************************/
+/* BELOW 850px (Smaller tablets) */
+/*************************/
+@media (max-width: 53.125em) {
+  header {
+    column-gap: 5rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .grid-testimonial {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+  }
+}
+
+/*************************/
+/* BELOW 750px (Smaller tablets) */
+/*************************/
+@media (max-width: 46.875em) {
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4.8rem;
+
+    justify-items: center;
+  }
+
+  .nav {
+    margin-bottom: 0;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    justify-items: center;
+    align-items: center;
+  }
+
+  .header-text-box {
+    text-align: center;
+    padding-inline: 5rem;
+    padding-block: 2rem 5rem;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .features-block {
+    text-align: center;
+    padding: 0 8rem;
+  }
+
+  /* # CHAIRS */
+  .chair {
+    width: 80%; /* # REVIEW */
+  }
+
+  .chair-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chair-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .chair-details li {
+    margin-bottom: 0;
+    padding: 2rem 5rem;
+    border: 1px solid #087f5b;
+  }
+
+  .chair-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+/*************************/
+/* BELOW 680px (Smaller tablets) */
+/*************************/
+@media (max-width: 42.5em) {
+  .nav {
+    flex-direction: column;
+    gap: 1.8rem;
+    background-color: rgb(254, 250, 251);
+  }
+
+  .container {
+    max-width: 90vw;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 3.3rem;
+  }
+
+  .btn--big {
+    font-size: 1.6rem;
+    padding: 1.7rem 3.4rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .grid-testimonial {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .testimonial-box {
+    grid-column: 1 / -1;
+    text-align: center;
+    align-self: center;
+  }
+
+  .chair-details {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .chair-price strong {
+    font-size: 3rem;
+  }
+}
+
+/*************************/
+/* BELOW 544px (Phones) */
+/*************************/
+
+@media (max-width: 34em) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .hero-img {
+    width: 90%;
+  }
+
+  .chair {
+    width: 85%;
+  }
+
+  .chair-details {
+    gap: 2rem;
+  }
+
+  .chair-details li {
+    padding: 1rem 2rem;
+  }
+
+  .chair-price strong {
+    font-size: 2.4rem;
+  }
+}
