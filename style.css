@@ -174,7 +174,7 @@ img {
 .testimonial-section {
   background-color: #087f5b;
   color: #fff;
-  padding: 2.4rem;
+  padding: 3rem;
   border-radius: 1.2rem;
 }
 
@@ -257,4 +257,20 @@ footer {
   margin-bottom: 4.8rem;
   font-size: 1.4rem;
   color: #495057;
+}
+
+/* # ANIMATION */
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  margin-bottom: 3rem;
+  animation: grow 15s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
 }
